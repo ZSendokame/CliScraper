@@ -16,7 +16,7 @@ cd CliScrapper
 pip install requirements.txt
 
 # Pip
-# Working on that
+pip install CliScrape
 ```
 
 ## How to use
