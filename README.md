@@ -22,9 +22,9 @@ pip install CliScrape
 ## How to use
 You have a lot of parameters!
 ```sh
-python cs.py --url https://sendokame.netlify.app --tag "a" --output "text" # <- You can select the attributes of BS4. 
+cscrape --url https://sendokame.netlify.app --tag "a" --output "text" # <- You can select the attributes of BS4. 
 ```
 Or
 ```sh
-python cs.py --url https://alansierra.xyz/blog/ --selector 'a > h2' --output text
+cscrape --url https://alansierra.xyz/blog/ --selector 'a > h2' --output text
 ```
