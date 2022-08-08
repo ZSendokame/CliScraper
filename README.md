@@ -1,8 +1,8 @@
 <div align="center">
 
-# CliScrapper
+# CliScraper
 
-CliScrapper makes Web Scrapping **simple** and **accessible from the Terminal**.
+CliScraper makes Web Scraping **simple** and **accessible from the Terminal**.
 
 [Installation](#Installation) •
 [How to use](#How-to-use)
@@ -11,8 +11,8 @@ CliScrapper makes Web Scrapping **simple** and **accessible from the Terminal**.
 ## Installation
 ```sh
 # Git
-git clone https://github.com/ZSendokame/CliScrapper
-cd CliScrapper
+git clone https://github.com/ZSendokame/CliScraper
+cd CliScraper
 pip install requirements.txt
 
 # Pip
