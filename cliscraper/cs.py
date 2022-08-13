@@ -1,6 +1,4 @@
-import requests
 import arguing
-from bs4 import BeautifulSoup
 
 import cliscraper.funct as funct
 
