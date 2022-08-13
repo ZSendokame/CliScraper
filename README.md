@@ -3,6 +3,8 @@
 # CliScraper
 
 CliScraper makes Web Scraping **simple** and **accessible from the Terminal**.
+[![PyPi Version](https://img.shields.io/pypi/v/CliScrape.svg?logo=pypi&logoColor=yellow)](https://pypi.org/project/CliScrape)
+[![PyPi Downloads](https://img.shields.io/pypi/dm/CliScrape?logo=pypi&logoColor=yellow)](https://pypistats.org/packages/CliScrape)
 
 [Installation](#Installation) •
 [How to use](#How-to-use)
