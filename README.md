@@ -14,9 +14,7 @@ CliScraper makes Web Scraping **simple** and **accessible from the Terminal**.<b
 git clone https://github.com/ZSendokame/CliScraper
 cd CliScraper
 pip install requirements.txt
-
-# Pip
-pip install CliScrape
+pip install -e .
 ```
 
 ## How to use

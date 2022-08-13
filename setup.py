@@ -4,7 +4,7 @@ long_description = open('./README.md')
 
 setup(
     name='CliScrape',
-    version='1.0.0',
+    version='0.0.1',
     url='https://github.com/ZSendokame/CliScraper',
     license='MIT license',
     author='ZSendokame',
@@ -19,8 +19,4 @@ setup(
             'cscrape=cliscraper.cs:main'
         ]
     },
-
-    classifiers=[
-        'Environment :: Web Environment'
-    ]
 )
