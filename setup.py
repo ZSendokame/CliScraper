@@ -4,7 +4,7 @@ long_description = open('./README.md')
 
 setup(
     name='CliScrape',
-    version='1.0.4',
+    version='1.0.0',
     url='https://github.com/ZSendokame/CliScraper',
     license='MIT license',
     author='ZSendokame',
