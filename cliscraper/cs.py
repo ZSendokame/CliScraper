@@ -1,4 +1,6 @@
 import arguing
+import requests
+from bs4 import BeautifulSoup
 
 import cliscraper.funct as funct
 
@@ -13,13 +15,14 @@ def main():
                          default='attrs')
 
     # Error
+    response = requests.get(url)
     if arguing.check('-h'):
         exit(arguing.documentation())
 
     # Main
     tags = tag.split(',')
     attribute_dict = funct.process_attributes(attributes)
-    soup = funct.fetch(url)
+    soup = BeautifulSoup(response.text, 'lxml')
 
     if arguing.check('--tag'):
         nodes = soup.find_all(tags, attrs=attribute_dict)

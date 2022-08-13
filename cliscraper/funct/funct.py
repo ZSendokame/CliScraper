@@ -1,7 +1,3 @@
-import requests
-from bs4 import BeautifulSoup
-
-
 def process_attributes(attributes):
     attributes = attributes.split(';')
     attribute_dict = {}
@@ -19,10 +15,3 @@ def process_attributes(attributes):
             attribute_dict[key[0]] = key[1]
 
     return attribute_dict
-
-
-def fetch(url, **kwargs):
-    response = requests.get(url, **kwargs).text
-    soup = BeautifulSoup(response, 'lxml')
-
-    return soup
