@@ -23,6 +23,7 @@ Or
 cscrape --url https://alansierra.xyz/blog/ --selector 'a > h2'
 ```
 <br>
+
 There are filters!
 ```sh                                        |Python oneline code that outputs Node attributes
 cscrape --url https://example.com --tag "p" --filter "node.attrs"
