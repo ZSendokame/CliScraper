@@ -2,8 +2,9 @@
 
 # CliScraper
 
-CliScraper makes Web Scraping **simple** and **accessible from the Terminal**.<br>
+![image](https://user-images.githubusercontent.com/70088953/191654614-f7b175c5-151a-4248-8d44-cdb3d3ae7eee.png)
 
+CliScraper makes Web Scraping **simple** and **accessible from the Terminal**.<br>
 [Installation](#Installation) •
 [How to use](#How-to-use)
 </div>
